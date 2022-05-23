@@ -1,8 +1,7 @@
 public class Veiculo{
-    public String marca;
-    public String modelo;
-    public String placa;
-
+    private String marca;
+    private String modelo;
+    private String placa;
 
     public String getMarca() {
         return marca;
@@ -21,7 +20,6 @@ public class Veiculo{
     }
     public void setPlaca(String placa) {
         this.placa = placa;
-    }
-    
+    }   
     
 }

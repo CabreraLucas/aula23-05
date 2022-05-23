@@ -1,7 +1,6 @@
 public class Carro extends Veiculo {
-    public String porta;
-    public int peso;
-
+    private String porta;
+    private int peso;
 
     public String getPorta() {
         return porta;
@@ -15,6 +14,4 @@ public class Carro extends Veiculo {
     public void setPeso(int peso) {
         this.peso = peso;
     }
-    
-
 }
